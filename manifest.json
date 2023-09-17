@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "EUR to Kuna Converter",
+    "version": "1.0",
+    "description": "Converts EUR to Croatian Kuna",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
